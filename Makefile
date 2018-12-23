@@ -18,7 +18,7 @@ CC = g++
 CFLAGS = -c -IC:/mingwdev/opengl/include
 INCLUDE = -IC:/mingwdev/opengl/include
 LFLAGS = -LC:/mingwdev/lib -LC:/mingwdev/opengl/lib -lmingw32 -lopengl32 -lglew32 -lglfw3dll
-MAIN = SixLegends
+MAIN = Main
 
 .PHONY: clean
 
